@@ -1,17 +1,6 @@
 {
     "rewrites": [
       { "source": "/send-email", "destination": "/api/send-email" }
-    ],
-    "redirects": [
-      { "source": "/old-page", "destination": "/new-page", "permanent": true }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          { "key": "Cache-Control", "value": "max-age=3600" }
-        ]
-      }
     ]
   }
   
